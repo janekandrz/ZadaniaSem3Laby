@@ -1,0 +1,11 @@
+data=readtable("data/data1.csv")
+data2 = readtable()
+
+figure
+plot(data,"I","V")
+hold on
+scatter(data,"I","V","filled")
+grid on
+title("Uwy=f(Iwy)")
+xlabel("I on[mA]")
+ylabel("Vce[mV]")
