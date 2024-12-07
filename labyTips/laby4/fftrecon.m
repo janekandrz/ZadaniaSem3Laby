@@ -1,4 +1,4 @@
-function x = fftrecon(a,b,l)% a - abs(ck) b - angle(ck) l- ilosc harmonicznych do rekonstrukcji syhnalu 
+function x = fftrecon(a,b,l)% a - abs(ck) b - angle(ck) l- ilosc harmonicznych do rekonstrukcji sygnału
     x = ones(length(a):1);
     for i=1:length(a)
         x(i)=0;
